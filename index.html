@@ -268,7 +268,28 @@
               </button>
             </div>
             <div class="modal-body">
-              <p>Form goes here</p>
+              <!-- registration form -->
+              <form>
+                <h5 class="mb-2">Basic Info</h5>
+                <div class="form-group">
+                  <label for="name">Name:</label>
+                  <input type="text" class="form-control" id="name">
+                </div>
+                <div class="form-group">
+                  <label for="email">Email:</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                </div>
+                <fieldset class="form-group">
+                    <label for="role">Job Role:</label>
+                    <select class="form-control" id="role" name="user_role">
+                        <option value="full stack js developer">Full Stack JavaScript Developer</option>
+                        <option value="fron end developer">Front End Developer</option>
+                        <option value="back end developer">Back End Developer</option>
+                        <option value="designer">Designer</option>
+                        <option value="studentr">Student</option>
+                    </select>
+                </fieldset>
+              </form> <!-- /registration form -->
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-primary">Save changes</button>
